@@ -2,7 +2,7 @@ package dspviolation;
 
 public class DVD {
     void seeReviews() {
-        System.out.println("see reviews");
+        System.out.println("see reviews of product");
     }
 
     void watchSamples() {
