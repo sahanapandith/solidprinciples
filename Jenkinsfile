@@ -5,8 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Compile and run Java code
-                bat 'javac -sourcepath src -d out solidprinciples/SolidPrinciples.java'
-                bat 'java -cp out SolidPrinciples.java'
+                bat 'javac -sourcepath src -d out dspviolation/Book.java'
+                bat 'java -cp out Book'
             }
         }
     }
