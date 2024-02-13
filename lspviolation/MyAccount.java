@@ -1,8 +1,8 @@
 package lspviolation;
 
 public class MyAccount {
-    String name="abc";
-    String accNo="2020abc";
+    String name="abcd";
+    String accNo="2020abcd";
     void getAccountDetails() {
         System.out.println("bank account details:name " + name);
         System.out.println("bank account details:accno " + accNo);

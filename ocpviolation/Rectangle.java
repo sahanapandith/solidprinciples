@@ -5,8 +5,8 @@ public class Rectangle {
     Double width;
     public Rectangle()
     {
-        length=3.5;
-        width=4.0;
+        length=3.55;
+        width=4.00;
     }
 }
  class Circle {
