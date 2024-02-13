@@ -2,7 +2,7 @@ package ispviolation;
 
 public class OnlineCustomer implements OnlineTransaction {
     public void bankApp() {
-        System.out.println("pay through banck app");
+        System.out.println("pay through banck application");
     }
 
     public void payPal() {
