@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Compile and run Java code
-                bat 'javac -sourcepath src -d out src/Annotation/Annotation1.java'
+                bat 'javac -sourcepath src -d out IdeaProjects/TestngProject/src/Annotation/Annotation1.java'
                 bat 'java -cp out Annotation1'
             }
         }
