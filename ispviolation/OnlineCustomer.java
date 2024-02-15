@@ -10,6 +10,6 @@ public class OnlineCustomer implements OnlineTransaction {
     }
 
     public void phonePe() {
-        System.out.println("pay through phonepe");
+        System.out.println("pay through phonepe or google pay");
     }
 }
